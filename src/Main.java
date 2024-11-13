@@ -16,7 +16,6 @@ public class Main {
         }
     }
 
-    // Função para exibir o menu de opções
     private static void menu() {
         System.out.println("\nEscolha uma opção:");
         System.out.println("1) Adicionar Saldo");
@@ -25,13 +24,11 @@ public class Main {
         System.out.println("4) Sair");
     }
 
-    // Função para ler a entrada do usuário
     private static int lerEntradaUsuario() {
         System.out.print("Opção: ");
         return scanner.nextInt();
     }
 
-    // Função para executar a opção escolhida pelo usuário
     private static void executarOpcao(int opcao) {
         switch (opcao) {
             case 1:

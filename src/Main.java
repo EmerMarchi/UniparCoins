@@ -9,7 +9,7 @@ public class Main {
             menu();
             int opcao = lerEntradaUsuario();
             if (opcao == 4) {
-                System.out.println("Saindo do sistema...");
+                System.out.println("Saindo do sistema!");
                 break;
             }
             executarOpcao(opcao);
